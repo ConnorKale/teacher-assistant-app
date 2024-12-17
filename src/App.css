@@ -9,13 +9,36 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
 .App-header {
+  background-color: #550055;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9955ff;
+}
+/*
+.App-button {
+  background-color: #550055;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9955ff;
+}
+*/
+
+.App-spinny {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70.1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +46,40 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: #292d35;
+}
+
+.App-textField {
+  background-color: #550055;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: #9955ff;
+}
+
+.App-checkbox {
+  background-color: #550055;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: #9955ff;
+}
+
 
 .App-link {
   color: #61dafb;
