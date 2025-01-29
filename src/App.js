@@ -7,7 +7,7 @@ import Button from './components/Button';
 import TextField from './components/TextField';
 import Checkbox from './components/Checkbox';
 import Dropdown from './components/Dropdown';
-import BadCalculator from './components/BadCalculator';
+import BadCalculator from './components/LLM Caculator/BadCalculator';
 
 function App() {
   const [inputValue, setInputValue] = useState('');

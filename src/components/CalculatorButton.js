@@ -9,7 +9,7 @@ function CalculatorButton({ label, onClick }) {
   );
 }
 
-BadCalculatorButton.propTypes = {
+CalculatorButton.propTypes = {
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };
