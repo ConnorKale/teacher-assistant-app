@@ -93,3 +93,146 @@
     transform: rotate(360deg);
   }
 }
+
+.badCalculator {
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.badCalculatorDisplay {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mode-indicator {
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.badCalculator-buttons-advanced {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.button-group.digits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.BadCalculatorButton {
+  padding: 10px;
+  min-width: 50px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.BadCalculatorButton:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.BadCalculatorButton:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.BadCalculatorButton-selected {
+  background-color: #e6e6e6;
+  border-color: #999;
+  font-weight: bold;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.control-button {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.operator-button {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.advanced-operator-button {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.function-button {
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+  font-size: 0.9rem;
+}
+
+.special-number-button {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.digit-button {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.app-nav button {
+  padding: 8px 16px;
+  background-color: #550055;
+  color: #9955ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.app-nav button:hover {
+  background-color: #440044;
+  transform: translateY(-2px);
+}
+
+.app-content {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
